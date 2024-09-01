@@ -12,15 +12,7 @@
     "format-and-lint:fix": "biome check . --write"
   },
   "workspaces": {
-    "packages": ["apps/*", "packages/*", "hardhat", "hardhat/**"],
-    "nohoist": [
-      "**/vite",
-      "**/vite/**",
-      "**/cbw-sdk",
-      "**/cbw-sdk/**",
-      "**/wagmi",
-      "**/wagmi/**"
-    ]
+    "packages": ["apps/*", "packages/*", "foundry/*"]
   },
   "packageManager": "bun@1.1.24",
   "engines": {
